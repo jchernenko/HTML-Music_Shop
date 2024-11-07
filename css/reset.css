@@ -1,0 +1,18 @@
+/* reset CSS file demo pages s04 onward COMP 1850 - establishes your preferred defaults */
+
+/* override unhelpful default for box-sizing property so that padding, border and content all fit within the width specified rather than being added to it. Applied to all elements with universal selector 
+
+
+*/
+
+* { box-sizing:border-box
+
+} 
+
+/* Since I plan to use rem measures elsewhere in the code, it makes sense not to leave the starting point for 1rem up to the browser that loads my code. So setting font-size explicitly in reset file. Now I will know 1rem is 16px   
+*/
+
+html {
+	font-size: 16px;
+	margin: 0;
+}
